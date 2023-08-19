@@ -1,9 +1,9 @@
 # Site settings
-title: Cheeee
+title: ChobbyCode
 author:
   name: Jacob
   email: 
-description: ""
+description: "The official ChobbyCode website"
 
 # Build settings
-remote_theme: jekyll/architect
+remote_theme: 
