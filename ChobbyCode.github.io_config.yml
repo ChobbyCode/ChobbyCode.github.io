@@ -1,9 +1,0 @@
-# Site settings
-title: Chesse
-author: ChobbyCode
-  name: Jacob
-  email: 
-description: ""
-
-# Build settings
-remote_theme: jekyll/minima
