@@ -28,7 +28,7 @@ li a {
 }
 
 
-a:hover{
+a:hover {
     background-color: #111;
 }
 
@@ -38,4 +38,16 @@ a:hover{
     border: 3px solid white;
     padding: 10px;
     color: white;
-  }
+}
+
+.center{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    color: white;
+}
+
+
+body {
+    overflow-x: hidden;
+}
