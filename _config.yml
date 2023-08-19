@@ -1,0 +1,9 @@
+# Site settings
+title: Cheeee
+author:
+  name: Jacob
+  email: 
+description: ""
+
+# Build settings
+remote_theme: jekyll/minima
