@@ -1,0 +1,9 @@
+# Site settings
+title: ChobbyCode.github.io
+author: ChobbyCode
+  name: Jacob
+  email: 
+description: ""
+
+# Build settings
+remote_theme: jekyll/minima
