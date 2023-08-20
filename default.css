@@ -7,11 +7,16 @@ Released for free under a Creative Commons Attribution 2.5 License
 /* Elements */
 
 body {
-	background: #000000;
+	/*background: #000000;*/
+	background: #ffffff;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 11px;
 	text-align: justify;
 	color: #888888;
+}
+
+p{
+	color: black;
 }
 
 h1 {
