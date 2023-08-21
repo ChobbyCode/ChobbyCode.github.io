@@ -1,0 +1,15 @@
+---
+layout: nonContent
+---
+
+{{ content }}
+
+{% for post in site.posts %}
+<div class="post">
+    <h3>{{ post.title }}</h3>
+    <p>{{ post.content }}</p>
+    <p>Posted by {{ post.user }} at {{ post.date }} |</p>
+
+    <div id="footer"></div>
+</div>
+{% endfor %}
