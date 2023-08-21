@@ -17,19 +17,18 @@
 <body>
 
     <div id="header">
-        <h1><a href="#">ChobbyCode</a></h1>
-        <h2><a href="#">Software & Media</a></h2>
+        <h1 style="font-family: PixelSans;"><a href="#">ChobbyCode</a></h1>
+        <h2 style="font-family: PixelSans;"><a href="#">Software & Media</a></h2>
     </div>
 
     <div id="content">
 
         <nav>
-            <ul>
-                <li><a href="/home/">Home</a></li>
-                <li><a href="/blog/">Blog</a></li>
-                <li style="float: right;"><a href="https://www.youtube.com/channel/UCGTBbWzzWBv3qTStI30zklw">Youtube</a>
-                </li>
-                <li style="float: right;"><a href="">About</a></li>
+            <ul style="font-family: PixelSans; font-size:150%; ">
+                <li><a href="/home/" style="color: #32A956">Home</a></li>
+                <li><a href="/blog/" style="color: #32A956">Blog</a></li>
+                <li style="float: right;"><a href="https://www.youtube.com/channel/UCGTBbWzzWBv3qTStI30zklw" style="color: #32A956">Youtube</a> </li>
+                <li style="float: right;"><a href="/about/" style="color: #32A956">About</a></li>
             </ul>
 
             <div id="footer"></div>
@@ -61,8 +60,29 @@
             color: #888888;
         }
 
+        h1 {
+            font-family: PixelSans;
+        }
+
+        h2 {
+            font-family: PixelSans;
+        }
+
         h3 {
             margin-top: 0px;
+            font-family: PixelSans;
+        }
+
+        h4 {
+            font-family: PixelSans;
+        }
+
+        h5 {
+            font-family: PixelSans;
+        }
+
+        h6 {
+            font-family: PixelSans;
         }
 
         a {
@@ -292,6 +312,11 @@
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
+        }
+
+        @font-face {
+            font-family: PixelSans;
+            src: url(/fonts/PixeloidSans-mLxMm.ttf);
         }
     </style>
 
