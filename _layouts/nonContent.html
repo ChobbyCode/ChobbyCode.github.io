@@ -1,7 +1,10 @@
----
----
+<!-- 
+    This is a master layout, this layout will take effect on all pages.
+    Only modify this layout if needed be.
+-->
 
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -36,12 +39,17 @@
 
             {{ content }}
 
-            <div style="clear: both;">&nbsp;</div>
-            <div id="footer">
-                <p>Copyright &copy; 2023 ChobbyCode. All products affiliated with and or ChobbyCode automatically come
-                    under their respective licenses.</p>
-            </div>
         </div>
+
+        <div style="clear: both;">&nbsp;</div>
+        <div id="footer">
+            <p>Copyright &copy; 2023 ChobbyCode. All products affiliated with and or ChobbyCode automatically come
+                under
+                their
+                respective licenses.</p>
+        </div>
+    </div>
+
     </div>
 
     <style>
@@ -53,22 +61,9 @@
             color: #888888;
         }
 
-        h1 {}
-
-        h2,
         h3 {
             margin-top: 0px;
         }
-
-        h4,
-        h5,
-        h6 {}
-
-        p,
-        ol,
-        ul,
-        dl,
-        blockquote {}
 
         a {
             color: #ABABAB;

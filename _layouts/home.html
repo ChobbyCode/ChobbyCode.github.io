@@ -1,34 +1,26 @@
 ---
-layout: default
+layout: nonContent
 ---
 
-<div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
 
-  {{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
 
+<div class="latest-post">
+    <h3>Welcome to ChobbyCode.github.io</h3>
+    <p>
+        Welcome to ChobbyCode.github.io, see ChobbyCode's latest projects, ideas and <a href="blog.html">blogs</a>.
+        Chobby (aka Jacob) also owns a <a href="https://www.youtube.com/@techplain">Youtube Channel</a>
+        where he posts
+        content on technology, gaming and other computer related content. This website is a sharing ground
+        for him, to
+        share these projects and his youtube channel.<br>
+        <br>
+        <a href="blog.html">Click here to navigate to the blogs page.</a>
+    </p>
+
+    <div id="footer"></div>
 </div>
+
+
+{{ content }}

@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ChobbyCode.github.io
+#title: ChobbyCode.github.io
 email: techplainbuisness@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to ChobbyCode.github.io, a sharing ground of Media, Projects, Blogs & Ideas.
