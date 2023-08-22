@@ -5,6 +5,8 @@ layout: nonContent
 {{ content }}
 
 {% for post in site.posts %}
+
+{% if post.showInFeed == true %}
 <div class="post">
     <h3>{{ post.title }}</h3>
     <p>{{ post.content }}</p>
@@ -12,4 +14,6 @@ layout: nonContent
 
     <div id="footer"></div>
 </div>
+{% endif %}
+
 {% endfor %}
