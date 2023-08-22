@@ -184,6 +184,7 @@ form {
 #colThree {
     float: left;
     width: 180px;
+    width: 180px;
 }
 
 #colThree ul {
@@ -254,7 +255,7 @@ li:last-child {
 
 li a {
     display: block;
-    color: white;
+    color: #F4F4F9;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
