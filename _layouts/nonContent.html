@@ -20,24 +20,22 @@
 <body>
 
 
-    <div id="header">
+    <!--<div id="header">
         <h1 style="font-family: PoppinsEBold;"><a href="#">ChobbyCode</a></h1>
         <h2 style="font-family: PoppinsEBold;"><a href="#">Software & Media</a></h2>
-    </div>
+    </div>-->
+
+    <nav>
+        <ul style="font-family: PoppinsBold; font-size:150%; ">
+            <li><a href="/home/">Home</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li style="float: right;"><a href="https://www.youtube.com/channel/UCGTBbWzzWBv3qTStI30zklw">Youtube</a>
+            </li>
+            <li style="float: right;"><a href="/about/">About</a></li>
+        </ul>
+    </nav>
 
     <div id="content">
-
-        <nav>
-            <ul style="font-family: PoppinsBold; font-size:150%; ">
-                <li><a href="/home/" style="color: #F4F4F9">Home</a></li>
-                <li><a href="/blog/" style="color: #F4F4F9">Blog</a></li>
-                <li style="float: right;"><a href="https://www.youtube.com/channel/UCGTBbWzzWBv3qTStI30zklw"
-                        style="color: #F4F4F9">Youtube</a> </li>
-                <!--<li style="float: right;"><a href="/about/" style="color: #32A956">About</a></li>-->
-            </ul>
-
-            <div id="footer"></div>
-        </nav>
 
         <div id="colTwo">
 
@@ -45,20 +43,10 @@
 
         </div>
 
-        <div style="clear: both;">&nbsp;</div>
-        <div id="footer">
-            <p>Copyright &copy; 2023 ChobbyCode. All products affiliated with and or ChobbyCode automatically come
-                under
-                their
-                respective licenses.
-                <a href="https://www.flaticon.com/free-icons/copy" title="copy icons">Copy icons created by Freepik - Flaticon</a>
-            </p>
-
-        </div>
-    </div>
+        {% include footer.html %}
 
     </div>
-    
+
 </body>
 
 </html>

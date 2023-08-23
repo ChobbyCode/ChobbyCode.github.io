@@ -1,36 +1,66 @@
----
-layout: nonContent
----
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="\css\home.css">
+    <title>Home</title>
+</head>
 
+<body>
 
+    <div class="bg"></div>
 
+    <div class="nav-wrapper">
+        <nav>
+            <ul style="font-family: PoppinsBold; font-size:150%; ">
+                <li><a href="/home/">Home</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/about/">About</a></li>
+                <li><a href="https://www.youtube.com/channel/UCGTBbWzzWBv3qTStI30zklw">Youtube</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
 
-<div class="latest-post">
-    <h3>Welcome to ChobbyCode.github.io</h3>
-    <p>
-        Welcome to ChobbyCode.github.io, see ChobbyCode's latest projects, ideas and <a href="/blogs/">blogs</a>.
-        Chobby (aka Jacob) also owns a <a href="https://www.youtube.com/@techplain">Youtube Channel</a>
-        where he posts
-        content on technology, gaming and other computer related content. This website is a sharing ground
-        for him, to
-        share these projects and his youtube channel.<br>
-        <br>
-        <a href="/blog/">Click here to navigate to the blogs page.</a>
-    </p>
+    <main>
 
-    <div id="footer"></div>
-</div>
+        <section>
+            <h1 class="animate-on-scroll">If gravity did not exist, could we fly to other planets?</h1>
+            <h1 class="animate-on-scroll">No, we wouldn't exist</h1>
+        </section>
 
-<div class="post">
-    <h3>Tutorials</h3>
-    <p>
-        I have written the "How to make a website for free" video in text form.
-        <br>
-        <a href="/blog/SetupGithubPages">Click here to navigate to the tutorial.</a>
-    </p>
+        <section style="text-align: center;">
+            <h2 class="animate-on-scroll">What is Techplain?</h2>
+            <h3 class="animate-on-scroll">Techplain is a English youtube channel, which specialises in technology
+                & computer related content.<br> This is the techplain website, this is where the media will be posted
+                and written up into text form, for easier consumption.
+            </h3>
+        </section>
 
-    <div id="footer"></div>
-</div>
+        <section style="text-align: center;">
+            <h2 class="animate-on-scroll">What is ChobbyCode?</h2>
+            <h3 class="animate-on-scroll">
+                ChobbyCode is the same person as Techplain, but ChobbyCode is their identity on github. This may
+                cause confusion, so on may parts <br> of the website, it says (same individual).
+            </h3>
+        </section>
 
-{{ content }}
+        <section style="text-align: center;">
+            <h2 class="animate-on-scroll">Blogs</h2>
+            <h3 class="animate-on-scroll">
+                Most of the content of this website is recorded in blog articles. You will be able to find
+                 tutorials and blogs in the blog section <a href="\blog\">here</a>.
+            </h3>
+        </section>
+
+    </main>
+
+    <script src="\assets\scripts\scroll.js"></script>
+
+    {% include footer.html %}
+</body>
+
+</html>
