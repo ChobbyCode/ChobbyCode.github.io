@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: PoppinsReg;
 }
 
 body {
@@ -92,6 +92,8 @@ h2 {
     }
 }
 
+/* Nav */
+
 nav {
     position: absolute;
     top:0;
@@ -126,6 +128,8 @@ footer {
     margin: 5px;
     color:white;
 }
+
+/* Links */
 
 a {
     color: white;

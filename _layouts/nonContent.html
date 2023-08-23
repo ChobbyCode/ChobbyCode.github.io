@@ -25,15 +25,7 @@
         <h2 style="font-family: PoppinsEBold;"><a href="#">Software & Media</a></h2>
     </div>-->
 
-    <nav>
-        <ul style="font-family: PoppinsBold; font-size:150%; ">
-            <li><a href="/home/">Home</a></li>
-            <li><a href="/blog/">Blog</a></li>
-            <li style="float: right;"><a href="https://www.youtube.com/channel/UCGTBbWzzWBv3qTStI30zklw">Youtube</a>
-            </li>
-            <li style="float: right;"><a href="/about/">About</a></li>
-        </ul>
-    </nav>
+    {% include nav.html %}
 
     <div id="content">
 
@@ -43,9 +35,9 @@
 
         </div>
 
-        {% include footer.html %}
-
     </div>
+
+    {% include footer.html %}
 
 </body>
 

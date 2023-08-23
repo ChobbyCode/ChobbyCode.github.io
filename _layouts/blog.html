@@ -8,11 +8,16 @@ layout: nonContent
 
 {% if post.showInFeed == true %}
 <div class="post">
-    <h3>{{ post.title }}</h3>
-    <p>{{ post.content }}</p>
-    <p>Posted by {{ post.user }} at {{ post.date }} |</p>
 
-    <div id="footer"></div>
+    <h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </h3>
+    <p>{{ post.content }}</p>
+
+    <div class="post-info">
+        <p>Posted by {{ post.user }} at {{ post.date }} |</p>
+    </div>
+
 </div>
 {% endif %}
 
