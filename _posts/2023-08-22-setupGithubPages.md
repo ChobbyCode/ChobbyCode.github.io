@@ -27,7 +27,7 @@ In this tutorial, I will show you how to setup your own fully functioning github
 
 You are going to want to create a new github repo. Name it [yourUserName].github.io, mine is chobbycode.github.io. This would mean the website would be https://chobbycode.github.io, and yours would be https://[yourUserName].github.io.
 
-![creatingRepo](https://chobbycode.github.io/assets/GitHubPagesTutorial/GithubPagesTutorial-1.PNG){:class="img-responsive"}
+![creatingRepo](https://github.com/ChobbyCode/ChobbyCode.github.io/blob/5030df12a0f67a1f8ed39dff01f0d015e0cb57c4/assets/GithubPagesTutorial/GithubPagesTutorial-1.PNG){:class="img-responsive"}
 
 ## **MAKE SURE TO ADD A README TO MAKE IT EASIER!!**
 
