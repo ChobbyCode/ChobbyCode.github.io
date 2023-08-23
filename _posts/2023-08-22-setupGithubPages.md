@@ -1,10 +1,11 @@
 ---
 title: Setup Github Pages Tutorial
 user: ChobbyCode
-date: 2023/08/22 10:01 +0100
+date: '2023/08/22 10:01 +0100'
 layout: post
 permalink: /blog/SetupGithubPages
 showInFeed: false
+published: true
 ---
 
 {::comment} 
@@ -14,6 +15,10 @@ showInFeed: false
 > ## Follow this tutorial in Video:
 
 {% include youtube.html id="JD7UyrWiXJg" %}
+
+> ## One Thing
+
+There is an issue with the css code a the moment where the code blocks are not displayed correctly. I am working on a fix. Note: the copy buttons still work correctly but don't look as intended.
 
 > ## Requirements
 
