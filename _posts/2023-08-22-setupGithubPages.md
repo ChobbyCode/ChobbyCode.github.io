@@ -27,7 +27,7 @@ In this tutorial, I will show you how to setup your own fully functioning github
 
 You are going to want to create a new github repo. Name it [yourUserName].github.io, mine is chobbycode.github.io. This would mean the website would be https://chobbycode.github.io, and yours would be https://[yourUserName].github.io.
 
-![creatingRepo](/../assets/GitHubPagesTutorial/GithubPagesTutorial-1.PNG){:class="img-responsive"}
+![creatingRepo](https://chobbycode.github.io/assets/GitHubPagesTutorial/GithubPagesTutorial-1.PNG){:class="img-responsive"}
 
 ## **MAKE SURE TO ADD A README TO MAKE IT EASIER!!**
 
@@ -35,7 +35,7 @@ You are going to want to create a new github repo. Name it [yourUserName].github
 
 Once you have created your github repo, it currently thinks it is a normal repo. We need a way to say that it is a website. You can do this by going to the settings, under Code & Automation and going to Pages. Where it says none, sellect the main branch and save. Now leave the page and wait for the website to start.
 
-![creatingRepo](/../assets/GitHubPagesTutorial/GithubPagesTutorial-2.PNG){:class="img-responsive"}
+![creatingRepo](https://chobbycode.github.io/assets/GitHubPagesTutorial/GithubPagesTutorial-2.PNG){:class="img-responsive"}
 
 After a while of clicking f5 to reload the page (it should only take this long the first time), the box that says deployment should be green. Not red or yellow. This means our website is now online. We can now again navigate back to the same settings menu and in the Pages section there should be a visit site button. After clicking on the button, you will be on the website.
 
