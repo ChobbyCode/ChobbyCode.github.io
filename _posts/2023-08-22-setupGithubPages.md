@@ -16,10 +16,6 @@ published: true
 
 {% include youtube.html id="JD7UyrWiXJg" %}
 
-> ## One Thing
-
-There is an issue with the css code a the moment where the code blocks are not displayed correctly. I am working on a fix. Note: the copy buttons still work correctly but don't look as intended.
-
 > ## Requirements
 
 You will need a installation of Visual Studio Code (with Github Codespaces extension), a installation of git, and a github account
