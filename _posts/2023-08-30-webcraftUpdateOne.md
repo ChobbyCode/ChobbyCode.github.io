@@ -4,8 +4,8 @@ user: ChobbyCode
 date: '2023/08/30 10:09 +0100'
 layout: post
 showInFeed: true
+title: Webcraft
 ---
-> ## What is webcraft?
 
 Webcraft is a Minecraft Clone I am currently working on. It is made in three.js which is a graphics library for javascript and typescript. The project should be done in 2-3 weeks and I will make a youtube video on my youtube channel. In the mean while, you should check out my youtube channel. Plug.
 
