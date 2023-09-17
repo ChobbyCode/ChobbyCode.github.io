@@ -41,9 +41,17 @@ body {
     color: white;
 }
 
+.title {
+    text-align: center;
+}
+
 .post p {
     margin-bottom: 1em;
     margin-top: 1em;
+}
+
+.legal-definition {
+    margin-left: 50px;
 }
 
 .file * {
