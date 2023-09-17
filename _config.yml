@@ -23,7 +23,7 @@ email: techplainbuisness@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to ChobbyCode.github.io, a sharing ground of Media, Projects, Blogs & Ideas.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://chobbycode.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:  ChobbyCode
 
