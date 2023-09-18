@@ -1,12 +1,8 @@
 ---
-Permalink: /about/
 layout: default
+permalink: /about/
 ---
 
-# About
+### About
 
-ChobbyCode.github.io is a website for hosting Tutorials, Blogs, Videos/Media & Information for ChobbyCode/Techplain.
-
-Here you can find, youtube tutorials and other forms of Media.
-
-Please contact me through my business email, you will be able to find it on youtube.
+Ever though coding was too easy. Okay it easier now lol :) Download my stuff please, it is very good.
