@@ -1,11 +1,21 @@
+<!-- CSS -->
+<link rel="stylesheet" href="../css/nav.css">
+
 <div class="nav-wrapper">
     <nav>
         <ul style="font-family: PoppinsBold; font-size:150%; ">
             <li><a href="/home/">Home</a></li>
             <li><a href="/products/">Products</a></li>
             <li><a href="/blog/">Blog</a></li>
-            <!-- <li><a href="/about/">About</a></li> -->
-            <li><a href="https://www.youtube.com/channel/UCGTBbWzzWBv3qTStI30zklw">Youtube</a>
+            <li class="dropdown">
+                <div class="dropdown-full">
+                    <a href="javascript:void(0)" class="dropbtn">About & Contact</a>
+                    <div class="dropdown-content">
+                        <a href="/about/">About</a>
+                        <a href="/contact/">Contact</a>
+                        <a href="https://www.youtube.com/channel/UCGTBbWzzWBv3qTStI30zklw">Youtube</a>
+                    </div>
+                </div>
             </li>
         </ul>
     </nav>
