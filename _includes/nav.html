@@ -1,5 +1,5 @@
 <!-- CSS -->
-<link rel="stylesheet" href="../css/nav.css">
+<!-- <link rel="stylesheet" href="../css/nav.css">
 
 <div class="nav-wrapper">
     <nav>
@@ -31,4 +31,58 @@
 
         </ul>
     </nav>
-</div>
+</div> -->
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">ChobbyCode</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="/home/">Home</a>
+            </li>
+
+            <!-- Blogs -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Blog
+                </a>
+                <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/blog/">Casual Blog</a>
+                    <a class="dropdown-item" href="#">Media Blog</a>
+                </div>
+            </li>
+
+            <!-- Products -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Products
+                </a>
+                <div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/UpdateChecker/">Update Checker</a>
+                    <a class="dropdown-item" href="https://github.com/ChobbyCode/Raspberry">Raspberry</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="/ReportBug/">Report A Bug</a>
+                </div>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav mr-end">
+            <li class="nav-item text-inline my-2 my-lg-0">
+                <a class="nav-link" href="/licenses/">Legal</a>
+            </li>
+            <li class="nav-item text-inline my-2 my-lg-0">
+                <a class="nav-link" href="/contact/">Contact</a>
+            </li>
+            <li class="nav-item text-inline my-2 my-lg-0">
+                <a class="nav-link" href="/about/">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>

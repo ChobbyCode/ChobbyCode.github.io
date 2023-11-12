@@ -1,0 +1,75 @@
+---
+permalink: ReportBug
+---
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width" , initial-scale="1.0">
+        <link rel="stylesheet" href="/css/font-def.css">
+        <link rel="stylesheet" href="/css/default.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title> {{ page.title }}</title>
+        <script src="assets/scripts/bugReport.js"></script>
+    </head>
+
+    <body>
+
+        <script src="../assets/scripts/checkDeviceType.js"></script>
+
+        {% include nav.html %}
+
+        <div id="content"  class="text-white">
+
+            <div id="colTwo">
+    
+                <div class="post">
+                    <h3>
+                        Product Reporting
+                    </h3>
+
+                    <div style="margin: 10px;">
+                        Upon clicking 'Report', you will be taken to an external site.
+                    </div>
+                    
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Please Select A Product: </label>
+                        <select id="inputState" class="form-control">
+                            <option value="none" selected>none</option>
+                            <option value="updater">Update Checker</option>
+                            <option value="raspberry">Raspberry</option>
+                            <option value="biscuit">BiscuitOS</option>
+                            <option value="chill">Chill Updater</option>
+                        </select>
+                    </div>
+                    
+                    <button class="Report" onclick="onClick()" style="margin: 10px;">Report</button>
+
+                    <ul style="margin: 10px;"><a href="https://github.com/ChobbyCode?tab=repositories"><small>If you can't find the product you are looking for, click here.</small></a></ul>
+                </div>
+    
+            </div>
+    
+        </div>
+    </body>
+
+    <script>
+        function onClick(){
+            var selectedValue = document.getElementById("inputState").value;
+            
+            if(selectedValue == "none"){
+
+            }
+            else if(selectedValue == "updater"){
+                location.replace("https://github.com/ChobbyCode/Update-Checker/issues/new")
+            }else if(selectedValue == "raspberry"){
+                location.replace("https://github.com/ChobbyCode/Raspberry/issues/new")
+            }else if(selectedValue == "biscuit"){
+                location.replace("https://github.com/ChobbyCode/BiscuitOS/issues/new")
+            }else if(selectedValue == "chill"){
+                location.replace("https://github.com/ChobbyCode/Chill-Updater/issues/new")
+            }
+        }
+    </script>
+</html>
+

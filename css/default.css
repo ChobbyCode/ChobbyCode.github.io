@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: PoppinsReg;
+    color: white;
 }
 
 body {
@@ -16,6 +17,10 @@ body {
 
     color: #fff;
     overflow-x: hidden;
+}
+
+p {
+    color: white;
 }
 
 /* Post */
@@ -40,7 +45,8 @@ body {
     border-style: solid;
     margin-bottom: 50px;
     /*border-top-color:cadetblue;*/
-    border-top-width:10px
+    border-top-width:10px;
+    color: white;
 }
 
 .post h3 {
