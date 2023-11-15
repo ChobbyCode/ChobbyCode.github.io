@@ -10,18 +10,11 @@ body {
     color: #fff;
 }
 
-section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-z
 
 h2 {
     margin-bottom: 1rem;
 }
+
 
 .animate-on-scroll {
     opacity: 0;
