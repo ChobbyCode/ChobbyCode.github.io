@@ -19,7 +19,7 @@ permalink: /ReportBug/
 
         {% include nav.html %}
 
-        <div id="content"  class="text-white">
+        <div id="content">
 
             <div id="colTwo">
     
@@ -34,16 +34,16 @@ permalink: /ReportBug/
                     
                     <div class="form-group col-md-4">
                         <label for="inputState">Please Select A Product: </label>
-                        <select id="inputState" class="form-control">
-                            <option value="none" selected>none</option>
-                            <option value="updater">Update Checker</option>
-                            <option value="raspberry">Raspberry</option>
-                            <option value="biscuit">BiscuitOS</option>
-                            <option value="chill">Chill Updater</option>
+                        <select id="inputState" class="form-control text-white bg-dark">
+                            <option value="none" class="text-black" selected>none</option>
+                            <option value="updater" class="text-black">Update Checker</option>
+                            <option value="raspberry" class="text-black">Raspberry</option>
+                            <option value="biscuit" class="text-black">BiscuitOS</option>
+                            <option value="chill" class="text-black">Chill Updater</option>
                         </select>
                     </div>
                     
-                    <button class="Report" onclick="onClick()" style="margin: 10px;">Report</button>
+                    <button class="Report bg-secondary" onclick="onClick()" style="margin: 10px;">Report</button>
 
                     <ul style="margin: 10px;"><a href="https://github.com/ChobbyCode?tab=repositories"><small>If you can't find the product you are looking for, click here.</small></a></ul>
                 </div>
