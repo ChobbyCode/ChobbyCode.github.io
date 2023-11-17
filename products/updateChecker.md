@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /UpdateChecker/
+permalink: /Products/UpdateChecker/
 ---
 
 ### Update Checker
