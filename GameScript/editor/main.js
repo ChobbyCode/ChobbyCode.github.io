@@ -11,7 +11,6 @@ function onWebLoad() {
 
     // context
     context = canvas.getContext('2d');
-    context.fillRect(100, 100, 100, 100);
 
     // Setup Controls
     var endGame = document.getElementById('endGame');
@@ -31,6 +30,12 @@ function RunGame() {
         endGame.className = "btn bg-danger m-1 p-1";
         var endGame = document.getElementById('pauseGame');
         endGame.className = "btn bg-warning m-1 p-1";
+
+        while(GameRun) {
+            context.fillRect(100, 100, 100, 100);
+
+            sleep(100);
+        }
     }
 }
 
@@ -46,4 +51,8 @@ function StopGame() {
         var endGame = document.getElementById('pauseGame');
         endGame.className = "btn text-muted bg-dark m-1 p-1";
     }
+}
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
