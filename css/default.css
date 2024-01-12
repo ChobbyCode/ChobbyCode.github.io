@@ -17,6 +17,8 @@ body {
 
     color: #fff;
     overflow-x: hidden;
+
+    min-height: 100em;
 }
 
 p {
