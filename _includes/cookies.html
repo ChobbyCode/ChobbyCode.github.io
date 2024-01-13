@@ -1,0 +1,54 @@
+<!-- <div class="fixed-bottom" style="background-color: black; min-height: 15rem;">
+    <div class="row mx-2 px-2">
+        <p class="h1 my-1 py-1">
+            Cookies
+        </p>
+    </div>
+    <div class="row mx-2 px-2">
+        <div class="col">
+            We use cookies to help improve your experience: our cookies store preferences on what you do on the website, such as: if you agree to the license agreements. By clicking accept your are agreeing to our <u>cookie policy</u> and our <u>license agreement</u>.
+        </div>
+        <div class="col align-items-end">
+            <button class="btn btn-secondary">
+                View Preferences
+            </button>
+            <button class="btn btn-danger">
+                Reject All Cookies
+            </button>
+            <button class="btn btn-success">
+                Allow All Cookies
+            </button>
+        </div>
+    </div>
+</div> -->
+
+<div id="cookiebanner" class="fixed-bottom" style="background-color: black; min-height: 15rem;">
+    <div class="row mx-2 px-2">
+        <p class="h1 my-1 py-1">
+            Greetings.
+        </p>
+    </div>
+    <div class="row mx-2 px-2">
+        <div class="col">
+            In the near future, this website will use cookies to store information on preferences on the website.
+            We will store information on if you agree to license agreements, if you have already seen certain popups and other monitoring information. You can view the full changes by clicking "View Changes".
+        </div>
+        <div class="col align-items-end">
+            <button onclick="window.open('/licenses/policies/cookies/', '_self')" class="btn btn-secondary">
+                View Changes
+            </button>
+            <button class="btn btn-secondary" onclick="hideCookieBanner()">
+                Hide This Popup
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+    hideCookieBanner();
+
+    function hideCookieBanner() {
+        var cookiebanner = document.getElementById("cookiebanner");
+        cookiebanner.style.display = "none";
+    }
+</script>

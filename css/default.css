@@ -59,6 +59,18 @@ section {
     color: white;
 }
 
+.curved-post {
+    background-color: rgb(30, 32, 40);
+    border-radius: 35px;
+    border-color: rgb(30, 32, 40);
+    border-width: 15px;
+    border-style: solid;
+    margin-bottom: 50px;
+    /*border-top-color:cadetblue;*/
+    border-top-width:10px;
+    color: white;
+}
+
 .post h3 {
     margin-bottom: .5em;
     font-size: 1.2em;
