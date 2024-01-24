@@ -4,6 +4,7 @@ user: ChobbyCode
 date: 2024-01-17 17:21 +0100
 layout: post
 showInFeed: true
+summary: The website has been updated again...
 ---
 
 Good Afternoon All, I've once again updated the design of the website.
