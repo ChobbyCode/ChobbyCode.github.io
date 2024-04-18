@@ -1,5 +1,7 @@
 // Global DefaultStyles.css
 import "./assets/styles/DefaultStyles.css"
+// Navbar
+import NavBar from "./components/navigation/Navbar.tsx"
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.css"
 
@@ -26,6 +28,7 @@ function App() {
 
   return (
     <div>
+      <NavBar />
       <div>
         <Route path="/" component={HomePage}>toast</Route>
       </div>
