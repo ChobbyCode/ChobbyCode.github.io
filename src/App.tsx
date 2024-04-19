@@ -36,7 +36,7 @@ function App() {
       <div>
         <BrowserRouter>
           <Routes>
-            <Route path="/">
+            <Route path="">
               <Route index element={<HomePage />} />
               <Route path="/blog" element={<BlogPage />} />
               <Route path="/about" element={<AboutPage />} />
