@@ -38,8 +38,8 @@ function App() {
           <Routes>
             <Route path="">
               <Route index element={<HomePage />} />
-              <Route path="/blog" element={<BlogPage />} />
-              <Route path="/about" element={<AboutPage />} />
+              <Route path="/#/blog" element={<BlogPage />} />
+              <Route path="/#/about" element={<AboutPage />} />
               <Route path="*" element={<NotFound />} />
             </Route>
           </Routes>
