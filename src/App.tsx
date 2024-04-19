@@ -6,7 +6,7 @@ import NavBar from "./components/navigation/Navbar.tsx"
 import "bootstrap/dist/css/bootstrap.css"
 
 // import { Route, Switch } from "wouter";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as BrowserRouter, Routes, Route } from "react-router-dom";
 
 // pages
 import HomePage from "./components/pages/HomePage.tsx"
