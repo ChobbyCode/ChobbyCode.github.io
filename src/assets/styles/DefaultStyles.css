@@ -1,4 +1,8 @@
 
+section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 
 .content {
   margin: 40px auto;
@@ -7,11 +11,34 @@
   font-size: 18px;
   color: inherit;
   padding: 0 10px;
+  min-height: 100vh;
+}
+
+.hiddenLink {
+  font-size: large;
+  text-decortation: none;
+}
+
+.navbar-title {
+  color: inherit;
+  font-size: large;
+  text-decoration: none;
+}
+
+.navbar-link {
+  color: inherit;
+  font-size: medium;
+  text-decoration: none;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .ThemeButton {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin: 2rem;
+  position: fixed; 
+  bottom: 2rem;
+  right: 2rem;
+  margin-left: 2rem;
 }
