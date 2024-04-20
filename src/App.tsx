@@ -5,8 +5,8 @@ import NavBar from "./components/navigation/Navbar.tsx"
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.css"
 
-// import { Route, Switch } from "wouter";
-import { HashRouter as BrowserRouter, Routes, Route } from "react-router-dom";
+// Routing
+import { Routes, Route } from 'react-router-dom' 
 
 // pages
 import HomePage from "./components/pages/HomePage.tsx"
@@ -34,16 +34,11 @@ function App() {
     <div>
       <NavBar />
       <div>
-        <BrowserRouter>
-          <Routes>
-            <Route path="/">
-              <Route index element={<HomePage />} />
-              <Route path="/#/blog" element={<BlogPage />} />
-              <Route path="/#/about" element={<AboutPage />} />
-              <Route path="*" element={<NotFound />} />
-            </Route>
-          </Routes>
-        </BrowserRouter>
+        <Routes>
+          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/blog" element={<BlogPage />}></Route>
+          <Route path="/about" element={<AboutPage />}></Route>
+        </Routes> 
       </div>
       <div className="ThemeButton float-right">
         <button className="btn bg-dark text-light rounded-circle float-right" onClick={ChangeTheme}>
