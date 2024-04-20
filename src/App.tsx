@@ -21,7 +21,7 @@ function App() {
   const ChangeTheme = () => {
     if(LightTheme){
       LightTheme = false;
-      document.body.style.backgroundColor = "#0d1b2a"; 
+      document.body.style.backgroundColor = "#0C0E1B"; 
       document.body.style.color = "#ffffff";
     } else {
       LightTheme = true;
@@ -36,6 +36,7 @@ function App() {
       <div>
         <Routes>
           <Route path="/#" element={<HomePage />}></Route>
+          <Route path="/" element={<HomePage />}></Route>
           <Route path="/blog" element={<BlogPage />}></Route>
           <Route path="/about" element={<AboutPage />}></Route>
           <Route path="*" element={<NotFound />}></Route>
