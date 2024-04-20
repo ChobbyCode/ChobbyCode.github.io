@@ -35,9 +35,10 @@ function App() {
       <NavBar />
       <div>
         <Routes>
-          <Route path="/" element={<HomePage />}></Route>
+          <Route path="/#" element={<HomePage />}></Route>
           <Route path="/blog" element={<BlogPage />}></Route>
           <Route path="/about" element={<AboutPage />}></Route>
+          <Route path="*" element={<NotFound />}></Route>
         </Routes> 
       </div>
       <div className="ThemeButton float-right">
