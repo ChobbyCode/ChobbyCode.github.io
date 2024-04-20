@@ -17,6 +17,8 @@ import AboutPage from "./components/pages/AboutPage.tsx"
 function App() {
  
   let LightTheme: boolean = true;
+  document.body.style.backgroundColor = "hsl(233, 38%, 90%)";
+  document.body.style.color = "#4D4D4D";
 
   const ChangeTheme = () => {
     if(LightTheme){
@@ -25,7 +27,7 @@ function App() {
       document.body.style.color = "#ffffff";
     } else {
       LightTheme = true;
-      document.body.style.backgroundColor = "#ffffff";
+      document.body.style.backgroundColor = "hsl(233, 38%, 90%)"
       document.body.style.color = "#4D4D4D"
     }
   };
