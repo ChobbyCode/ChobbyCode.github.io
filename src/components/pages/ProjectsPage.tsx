@@ -20,6 +20,11 @@ function ProjectsPage() {
          </section>
          <section>
             <h2>Photography</h2>
+            <section>
+              <div>
+                Tim is still cooking this website, so whilst you wait, why don't you checkout my github.
+              </div>
+            </section>
           </section>
       </section>
     </div>
