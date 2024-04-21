@@ -9,7 +9,7 @@ function NavBar(){
               <a className="nav-link" href="./#">Home</a>
             </li>
             <li className="nav-item-links">
-              <a className="nav-link" href="./#/blog">Blog</a>
+              <a className="nav-link" href="./#/projects">Projects</a>
             </li>
             <li className="nav-item-link">
               <a className="nav-link" href="./#/about">About</a>

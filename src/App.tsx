@@ -4,14 +4,14 @@ import "./assets/styles/DefaultStyles.css"
 import NavBar from "./components/navigation/Navbar.tsx"
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.css"
-
+import Markdown from 'react-markdown'
 // Routing
 import { Routes, Route } from 'react-router-dom' 
 
 // pages
 import HomePage from "./components/pages/HomePage.tsx"
 import NotFound from "./components/pages/NotFound.tsx"
-import BlogPage from "./components/pages/BlogPage.tsx"
+import ProjectsPage from "./components/pages/ProjectsPage.tsx"
 import AboutPage from "./components/pages/AboutPage.tsx"
 
 function App() {
@@ -39,7 +39,7 @@ function App() {
         <Routes>
           <Route path="/#" element={<HomePage />}></Route>
           <Route path="/" element={<HomePage />}></Route>
-          <Route path="/blog" element={<BlogPage />}></Route>
+          <Route path="/projects" element={<ProjectsPage />}></Route>
           <Route path="/about" element={<AboutPage />}></Route>
           <Route path="*" element={<NotFound />}></Route>
         </Routes> 
