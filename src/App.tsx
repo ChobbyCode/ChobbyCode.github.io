@@ -4,7 +4,7 @@ import "./assets/styles/DefaultStyles.css"
 import NavBar from "./components/navigation/Navbar.tsx"
 // Bootstrap
 import "bootstrap/dist/css/bootstrap.css"
-import Markdown from 'react-markdown'
+// import Markdown from 'react-markdown'
 // Routing
 import { Routes, Route } from 'react-router-dom' 
 
