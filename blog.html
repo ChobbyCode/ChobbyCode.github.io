@@ -1,0 +1,33 @@
+---
+permalink: blog
+layout: default
+---
+
+<section>
+  <!-- Profile Picture -->
+
+  <img class="pfp" src="/assets/ProfilePicture.jpg" width="250" />
+  <h1 class="name-spot text-center text-muted">ChobbyCode</h1>
+</section>
+
+{% for post in site.posts %}
+<div class="blog-post">
+
+    <h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </h3>
+
+    <p>
+        {{ post.summary }}
+    </p>
+
+    <div class="post-info">
+        <p>Posted at {{ post.date }}</p>
+    </div>
+
+</div>
+{% endfor %}
+
+<div class="text-center p-5 m-5 text-muted">
+  End of blogs...
+</div>
