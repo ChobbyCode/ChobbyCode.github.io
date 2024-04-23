@@ -8,6 +8,10 @@ li {
   display: inline-block;
 }
 
+section {
+  padding-bottom: 1.5rem;
+}
+
 .content {
   margin: 40px auto;
   max-width: 650px;
