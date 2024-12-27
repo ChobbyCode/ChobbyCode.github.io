@@ -14,15 +14,19 @@ layout: default
 <div class="blog-post">
 
     <h3>
-        <a href="{{ post.url }}">{{ post.title }}</a>
+        <a href="{{ post.url }}" class="text-muted">{{ post.title }}</a>
     </h3>
 
     <p>
         {{ post.summary }}
     </p>
 
+    <div style="font-size: 0.9rem;">
+        {{ post.content | strip_html | truncatewords:75}}
+    </div>
+
     <div class="post-info">
-        <p>Posted at {{ post.date }}</p>
+        <p>Posted on {{ post.date | date: "%A the %d of %B, %Y" }}</p>
     </div>
 
 </div>
