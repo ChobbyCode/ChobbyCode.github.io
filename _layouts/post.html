@@ -12,7 +12,12 @@
 
     <div class="content">
       <section>
-        <h1 class="text-center mb-5">{{ page.title }}</h1>
+        <h1 class="text-center">{{ page.title }}</h1>
+        <div class="text-center mb-5">
+          {% assign words = page.content | strip_html | number_of_words %}
+          {% assign ert = words | divided_by:250 | at_least: 1 %}
+          {{ ert }} minute{% if ert != 1 %}s{% endif %} read
+        </div>
         <hr />
       </section>
       <section class="reader">
