@@ -14,15 +14,15 @@ layout: default
 <div class="blog-post">
 
     <h3>
-        <a href="{{ post.url }}" class="text-muted">{{ post.title }}</a>
+        <a href="{{ post.url }}" class="text-muted title">{{ post.title }}</a>
     </h3>
 
     <p>
-        {{ post.summary }}
+        <a href="{{ post.url }}"> {{ post.summary }} </a>
     </p>
 
     <div style="font-size: 0.9rem;">
-        {{ post.content | strip_html | truncatewords:75}}
+        <a href="{{ post.url }}" class="text-muted">{{ post.content | strip_html | truncatewords:75}} </a>
     </div>
 
     <div class="post-info">

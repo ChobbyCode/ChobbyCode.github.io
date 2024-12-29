@@ -5,12 +5,26 @@
   src: url("/fonts/HeptaSlab.ttf");
 }
 
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat.ttf");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("/fonts/Merriweather.ttf");
+}
+
 body {
   background-color: #dcdeef !important;
 }
 
 li {
   display: inline-block;
+}
+
+a {
+  text-decoration: none !important;
 }
 
 .nav-item {
@@ -39,6 +53,15 @@ section {
 
 .name-spot {
   margin-bottom: 4rem;
+}
+
+h1, h2, h3, h4, h5, h6, .title {
+  font-family: "Montserrat" !important;
+  text-decoration: none !important;
+}
+
+p {
+  font-family: "Merriweather";
 }
 
 @media (max-width: 1500px) {
@@ -81,6 +104,15 @@ section {
     font-size: 2rem !important;
   }
 
+  h1, h2, h3, h4, h5, h6, .title {
+    font-family: "Montserrat" !important;
+    text-decoration: none !important;
+  }
+
+  p {
+  font-family: "Merriweather";
+  }
+
 } 
 @media (min-width: 1500px) {
   .content {
@@ -92,5 +124,13 @@ section {
     padding: 0 10px;
     min-height: 100vh;
     font-family: "Hepta Slab";
+  }
+  h1, h2, h3, h4, h5, h6, .title {
+    font-family: "Montserrat" !important;
+    text-decoration: none !important;
+  }
+
+  p {
+    font-family: "Merriweather";
   }
 } 
